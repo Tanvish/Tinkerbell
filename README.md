@@ -11,10 +11,9 @@ An arduino project that will ring a doorbell when someone appears on the door. I
 ## Setup
 It is basically written in C, so my guess is that you can use it in other embedded systems but you won't be able to run it on any other microcontroller because the pins are setup for ESP-32 cam.
 
-You can host your images on any of the web hosts, I used 000webhost for my images but you can use any thing else. The blynk app access the URL since it is public.
+You can host your images on any of the web hosts, I used 000webhost for my images but you can use any thing else. The blynk app accesses the URL since it is public.
 
 ## Issues
-
 - The image seems to get corrupted sometimes, although theoretically it shouldn't.
 - I have written functions for the servo motor but they don't work right because of timer issue. The same timers are being used by the servo as well as the camera. So if you can figure out a way to fix that, it will help a lot. 
 
